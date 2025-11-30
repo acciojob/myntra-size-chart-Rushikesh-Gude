@@ -1,2 +1,38 @@
+/* --- Table Styles --- */
 
-/* Your CSS Code here. */
+/* Sets the table's overall appearance */
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse; /* Removes the double border lines */
+  width: 100%;
+}
+
+/* Styles for all table data cells (td) and header cells (th) */
+td, th {
+  border: 1px solid #dddddd; /* Light gray border */
+  text-align: left;
+  padding: 8px; /* Spacing inside the cells */
+}
+
+/* --- Color-Specific Styles (Matching the Left Image) --- */
+
+/* Styles for the Header Row (th) */
+th {
+  /* This is a dark reddish-brown color */
+  background-color: #A52A2A; 
+  color: white; /* White text for contrast */
+}
+
+/* Styles for the First Column (td:first-child) */
+td:first-child {
+  /* This is a lighter, rosy brown color */
+  background-color: #BC8F8F;
+  color: white; /* White text for contrast */
+}
+
+/* You can optionally use this to slightly shade alternate rows (not explicitly in your example but common) */
+/*
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+*/
